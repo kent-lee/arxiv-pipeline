@@ -1,0 +1,19 @@
+[2019-07-01 21:52:54,274] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-02T04:42:51.064799+00:00 [queued]>
+[2019-07-01 21:52:54,278] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-02T04:42:51.064799+00:00 [queued]>
+[2019-07-01 21:52:54,279] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-01 21:52:54,279] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-07-01 21:52:54,279] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-01 21:52:54,287] {__init__.py:1374} INFO - Executing <Task(PythonOperator): source_to_s3> on 2019-07-02T04:42:51.064799+00:00
+[2019-07-01 21:52:54,287] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'arxiv_pipeline', 'source_to_s3', '2019-07-02T04:42:51.064799+00:00', '--job_id', '2', '--raw', '-sd', 'DAGS_FOLDER/load.py', '--cfg_path', '/tmp/tmpg03tpas7']
+[2019-07-01 21:52:54,868] {base_task_runner.py:101} INFO - Job 2: Subtask source_to_s3 [2019-07-01 21:52:54,867] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-07-01 21:52:55,094] {base_task_runner.py:101} INFO - Job 2: Subtask source_to_s3 [2019-07-01 21:52:55,094] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 21:52:55,351] {base_task_runner.py:101} INFO - Job 2: Subtask source_to_s3 [2019-07-01 21:52:55,351] {cli.py:517} INFO - Running <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-02T04:42:51.064799+00:00 [running]> on host Aspire-E5-572G
+[2019-07-01 21:52:55,360] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=arxiv_pipeline
+AIRFLOW_CTX_TASK_ID=source_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2019-07-02T04:42:51.064799+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-07-02T04:42:51.064799+00:00
+[2019-07-01 21:53:00,130] {python_operator.py:113} INFO - Done. Returned value was: None
+[2019-07-01 21:53:04,288] {logging_mixin.py:95} INFO - [2019-07-01 21:53:04,286] {jobs.py:2562} INFO - Task exited with return code 0

@@ -1,0 +1,38 @@
+[2019-07-01 21:23:57,925] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: arxiv_pipeline.s3_to_redshift 2019-06-30T00:00:00+00:00 [queued]>
+[2019-07-01 21:23:57,932] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: arxiv_pipeline.s3_to_redshift 2019-06-30T00:00:00+00:00 [queued]>
+[2019-07-01 21:23:57,933] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-01 21:23:57,933] {__init__.py:1354} INFO - Starting attempt 1 of 2
+[2019-07-01 21:23:57,933] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-01 21:23:57,940] {__init__.py:1374} INFO - Executing <Task(PythonOperator): s3_to_redshift> on 2019-06-30T00:00:00+00:00
+[2019-07-01 21:23:57,940] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'arxiv_pipeline', 's3_to_redshift', '2019-06-30T00:00:00+00:00', '--job_id', '3', '--raw', '-sd', 'DAGS_FOLDER/load.py', '--cfg_path', '/tmp/tmpxhpaxi75']
+[2019-07-01 21:23:58,535] {base_task_runner.py:101} INFO - Job 3: Subtask s3_to_redshift [2019-07-01 21:23:58,534] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-07-01 21:23:58,765] {base_task_runner.py:101} INFO - Job 3: Subtask s3_to_redshift [2019-07-01 21:23:58,764] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 21:23:59,024] {base_task_runner.py:101} INFO - Job 3: Subtask s3_to_redshift [2019-07-01 21:23:59,024] {cli.py:517} INFO - Running <TaskInstance: arxiv_pipeline.s3_to_redshift 2019-06-30T00:00:00+00:00 [running]> on host Aspire-E5-572G
+[2019-07-01 21:23:59,033] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=arxiv_pipeline
+AIRFLOW_CTX_TASK_ID=s3_to_redshift
+AIRFLOW_CTX_EXECUTION_DATE=2019-06-30T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-30T00:00:00+00:00
+[2019-07-01 21:24:00,323] {python_operator.py:113} INFO - Done. Returned value was: None
+[2019-07-01 21:24:02,930] {logging_mixin.py:95} INFO - [2019-07-01 21:24:02,929] {jobs.py:2562} INFO - Task exited with return code 0
+[2019-07-01 21:36:26,327] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: arxiv_pipeline.s3_to_redshift 2019-06-30T00:00:00+00:00 [queued]>
+[2019-07-01 21:36:26,335] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: arxiv_pipeline.s3_to_redshift 2019-06-30T00:00:00+00:00 [queued]>
+[2019-07-01 21:36:26,335] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-01 21:36:26,336] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-07-01 21:36:26,336] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-01 21:36:26,343] {__init__.py:1374} INFO - Executing <Task(PythonOperator): s3_to_redshift> on 2019-06-30T00:00:00+00:00
+[2019-07-01 21:36:26,343] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'arxiv_pipeline', 's3_to_redshift', '2019-06-30T00:00:00+00:00', '--job_id', '5', '--raw', '-sd', 'DAGS_FOLDER/load.py', '--cfg_path', '/tmp/tmprijtvd_6']
+[2019-07-01 21:36:26,918] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift [2019-07-01 21:36:26,917] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-07-01 21:36:27,145] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift [2019-07-01 21:36:27,144] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 21:36:27,402] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift [2019-07-01 21:36:27,402] {cli.py:517} INFO - Running <TaskInstance: arxiv_pipeline.s3_to_redshift 2019-06-30T00:00:00+00:00 [running]> on host Aspire-E5-572G
+[2019-07-01 21:36:27,411] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=arxiv_pipeline
+AIRFLOW_CTX_TASK_ID=s3_to_redshift
+AIRFLOW_CTX_EXECUTION_DATE=2019-06-30T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-30T00:00:00+00:00
+[2019-07-01 21:36:28,508] {python_operator.py:113} INFO - Done. Returned value was: None
+[2019-07-01 21:36:31,326] {logging_mixin.py:95} INFO - [2019-07-01 21:36:31,325] {jobs.py:2562} INFO - Task exited with return code 0

@@ -1,0 +1,418 @@
+[2019-07-01 16:26:48,137] {jobs.py:398} INFO - Started process (PID=5272) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:48,139] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:26:48,139] {logging_mixin.py:95} INFO - [2019-07-01 16:26:48,139] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:48,412] {jobs.py:1723} INFO - DAG(s) dict_keys(['source_to_s3']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:48,427] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.291 seconds
+[2019-07-01 16:26:50,133] {jobs.py:398} INFO - Started process (PID=5280) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:50,137] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:26:50,137] {logging_mixin.py:95} INFO - [2019-07-01 16:26:50,137] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:50,402] {jobs.py:1723} INFO - DAG(s) dict_keys(['source_to_s3']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:50,416] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.283 seconds
+[2019-07-01 16:26:52,136] {jobs.py:398} INFO - Started process (PID=5282) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:52,138] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:26:52,139] {logging_mixin.py:95} INFO - [2019-07-01 16:26:52,139] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:52,401] {jobs.py:1723} INFO - DAG(s) dict_keys(['source_to_s3']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:52,416] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.280 seconds
+[2019-07-01 16:26:54,136] {jobs.py:398} INFO - Started process (PID=5284) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:54,138] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:26:54,138] {logging_mixin.py:95} INFO - [2019-07-01 16:26:54,138] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:54,415] {jobs.py:1723} INFO - DAG(s) dict_keys(['source_to_s3']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:54,429] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.293 seconds
+[2019-07-01 16:26:56,136] {jobs.py:398} INFO - Started process (PID=5286) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:56,139] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:26:56,139] {logging_mixin.py:95} INFO - [2019-07-01 16:26:56,139] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:56,406] {jobs.py:1723} INFO - DAG(s) dict_keys(['source_to_s3']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:56,419] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.283 seconds
+[2019-07-01 16:26:58,141] {jobs.py:398} INFO - Started process (PID=5288) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:58,143] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:26:58,143] {logging_mixin.py:95} INFO - [2019-07-01 16:26:58,143] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:58,410] {jobs.py:1723} INFO - DAG(s) dict_keys(['source_to_s3']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:26:58,424] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.284 seconds
+[2019-07-01 16:27:00,151] {jobs.py:398} INFO - Started process (PID=5290) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:27:00,153] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:27:00,153] {logging_mixin.py:95} INFO - [2019-07-01 16:27:00,153] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:27:00,421] {jobs.py:1723} INFO - DAG(s) dict_keys(['source_to_s3']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:27:00,434] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.283 seconds
+[2019-07-01 16:27:02,142] {jobs.py:398} INFO - Started process (PID=5292) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:27:02,144] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:27:02,145] {logging_mixin.py:95} INFO - [2019-07-01 16:27:02,144] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:27:02,447] {jobs.py:1723} INFO - DAG(s) dict_keys(['source_to_s3']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:27:02,462] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.320 seconds
+[2019-07-01 16:27:04,145] {jobs.py:398} INFO - Started process (PID=5294) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:27:04,148] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:27:04,148] {logging_mixin.py:95} INFO - [2019-07-01 16:27:04,148] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:27:04,416] {jobs.py:1723} INFO - DAG(s) dict_keys(['source_to_s3']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:27:04,431] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.286 seconds
+[2019-07-01 16:46:44,186] {jobs.py:398} INFO - Started process (PID=5757) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:46:44,188] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:46:44,189] {logging_mixin.py:95} INFO - [2019-07-01 16:46:44,188] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:46:44,458] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:46:44,476] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:46:44,497] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01T16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:46:44,499] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:46:44,505] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 23:42:57.006241+00:00: manual__2019-07-01T23:42:57.006241+00:00, externally triggered: True>
+[2019-07-01 16:46:44,522] {jobs.py:632} INFO - Skipping SLA check for <DAG: arxiv_pipeline> because no tasks in DAG have SLAs
+[2019-07-01 16:46:44,526] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 16:46:44.456531+00:00 [scheduled]> in ORM
+[2019-07-01 16:46:44,529] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 23:42:57.006241+00:00 [scheduled]> in ORM
+[2019-07-01 16:46:44,538] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.352 seconds
+[2019-07-01 16:46:46,183] {jobs.py:398} INFO - Started process (PID=5760) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:46:46,185] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:46:46,186] {logging_mixin.py:95} INFO - [2019-07-01 16:46:46,185] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:46:46,463] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:46:46,481] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:46:46,501] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:46:46,504] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:46:46,510] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:46:46,517] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 23:42:57.006241+00:00: manual__2019-07-01T23:42:57.006241+00:00, externally triggered: True>
+[2019-07-01 16:46:46,540] {jobs.py:632} INFO - Skipping SLA check for <DAG: arxiv_pipeline> because no tasks in DAG have SLAs
+[2019-07-01 16:46:46,544] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 16:47:44.456531+00:00 [scheduled]> in ORM
+[2019-07-01 16:46:46,553] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.370 seconds
+[2019-07-01 16:47:11,664] {jobs.py:398} INFO - Started process (PID=5808) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:11,666] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:47:11,666] {logging_mixin.py:95} INFO - [2019-07-01 16:47:11,666] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:11,952] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:11,970] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:47:11,991] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01 16:48:44.456531+00:00: scheduled__2019-07-01T16:48:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:11,993] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:12,000] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:12,006] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:48:44.456531+00:00: scheduled__2019-07-01T16:48:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:12,013] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 23:42:57.006241+00:00: manual__2019-07-01T23:42:57.006241+00:00, externally triggered: True>
+[2019-07-01 16:47:12,042] {jobs.py:632} INFO - Skipping SLA check for <DAG: arxiv_pipeline> because no tasks in DAG have SLAs
+[2019-07-01 16:47:12,045] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 16:48:44.456531+00:00 [scheduled]> in ORM
+[2019-07-01 16:47:12,048] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.s3_to_redshift 2019-07-01 23:42:57.006241+00:00 [scheduled]> in ORM
+[2019-07-01 16:47:12,058] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.394 seconds
+[2019-07-01 16:47:26,148] {jobs.py:398} INFO - Started process (PID=5836) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:26,151] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:47:26,151] {logging_mixin.py:95} INFO - [2019-07-01 16:47:26,151] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:26,454] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:26,474] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:47:26,497] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01 16:49:44.456531+00:00: scheduled__2019-07-01T16:49:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:26,500] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:26,507] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:26,513] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:48:44.456531+00:00: scheduled__2019-07-01T16:48:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:26,520] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:49:44.456531+00:00: scheduled__2019-07-01T16:49:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:26,526] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 23:42:57.006241+00:00: manual__2019-07-01T23:42:57.006241+00:00, externally triggered: True>
+[2019-07-01 16:47:26,561] {jobs.py:632} INFO - Skipping SLA check for <DAG: arxiv_pipeline> because no tasks in DAG have SLAs
+[2019-07-01 16:47:26,565] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 16:49:44.456531+00:00 [scheduled]> in ORM
+[2019-07-01 16:47:26,575] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.427 seconds
+[2019-07-01 16:47:34,084] {jobs.py:398} INFO - Started process (PID=5852) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:34,086] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:47:34,086] {logging_mixin.py:95} INFO - [2019-07-01 16:47:34,086] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:34,361] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:34,384] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:47:34,407] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01 16:50:44.456531+00:00: scheduled__2019-07-01T16:50:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:34,410] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:34,417] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:34,423] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:48:44.456531+00:00: scheduled__2019-07-01T16:48:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:34,430] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:49:44.456531+00:00: scheduled__2019-07-01T16:49:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:34,437] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:50:44.456531+00:00: scheduled__2019-07-01T16:50:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:34,443] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 23:42:57.006241+00:00: manual__2019-07-01T23:42:57.006241+00:00, externally triggered: True>
+[2019-07-01 16:47:34,484] {jobs.py:632} INFO - Skipping SLA check for <DAG: arxiv_pipeline> because no tasks in DAG have SLAs
+[2019-07-01 16:47:34,488] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 16:50:44.456531+00:00 [scheduled]> in ORM
+[2019-07-01 16:47:34,497] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.413 seconds
+[2019-07-01 16:47:41,993] {jobs.py:398} INFO - Started process (PID=5871) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:41,995] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:47:41,998] {logging_mixin.py:95} INFO - [2019-07-01 16:47:41,995] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:42,291] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:42,311] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:47:42,333] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01 16:51:44.456531+00:00: scheduled__2019-07-01T16:51:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:42,336] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:42,342] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:42,349] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:48:44.456531+00:00: scheduled__2019-07-01T16:48:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:42,356] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:49:44.456531+00:00: scheduled__2019-07-01T16:49:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:42,362] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:50:44.456531+00:00: scheduled__2019-07-01T16:50:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:42,368] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:51:44.456531+00:00: scheduled__2019-07-01T16:51:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:42,375] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 23:42:57.006241+00:00: manual__2019-07-01T23:42:57.006241+00:00, externally triggered: True>
+[2019-07-01 16:47:42,421] {jobs.py:632} INFO - Skipping SLA check for <DAG: arxiv_pipeline> because no tasks in DAG have SLAs
+[2019-07-01 16:47:42,425] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 16:51:44.456531+00:00 [scheduled]> in ORM
+[2019-07-01 16:47:42,436] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.443 seconds
+[2019-07-01 16:47:50,044] {jobs.py:398} INFO - Started process (PID=5886) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:50,046] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:47:50,049] {logging_mixin.py:95} INFO - [2019-07-01 16:47:50,046] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:50,329] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:50,349] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:47:50,370] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01 16:52:44.456531+00:00: scheduled__2019-07-01T16:52:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:50,373] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:50,379] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:50,386] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:48:44.456531+00:00: scheduled__2019-07-01T16:48:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:50,392] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:49:44.456531+00:00: scheduled__2019-07-01T16:49:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:50,398] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:50:44.456531+00:00: scheduled__2019-07-01T16:50:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:50,404] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:51:44.456531+00:00: scheduled__2019-07-01T16:51:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:50,410] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:52:44.456531+00:00: scheduled__2019-07-01T16:52:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:50,416] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 23:42:57.006241+00:00: manual__2019-07-01T23:42:57.006241+00:00, externally triggered: True>
+[2019-07-01 16:47:50,465] {jobs.py:632} INFO - Skipping SLA check for <DAG: arxiv_pipeline> because no tasks in DAG have SLAs
+[2019-07-01 16:47:50,469] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 16:52:44.456531+00:00 [scheduled]> in ORM
+[2019-07-01 16:47:50,480] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.436 seconds
+[2019-07-01 16:47:58,007] {jobs.py:398} INFO - Started process (PID=5901) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:58,009] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:47:58,009] {logging_mixin.py:95} INFO - [2019-07-01 16:47:58,009] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:58,280] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:47:58,298] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:47:58,318] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01 16:53:44.456531+00:00: scheduled__2019-07-01T16:53:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:58,321] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:58,327] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:58,332] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:48:44.456531+00:00: scheduled__2019-07-01T16:48:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:58,338] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:49:44.456531+00:00: scheduled__2019-07-01T16:49:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:58,344] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:50:44.456531+00:00: scheduled__2019-07-01T16:50:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:58,350] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:51:44.456531+00:00: scheduled__2019-07-01T16:51:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:58,356] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:52:44.456531+00:00: scheduled__2019-07-01T16:52:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:58,361] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:53:44.456531+00:00: scheduled__2019-07-01T16:53:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:47:58,368] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 23:42:57.006241+00:00: manual__2019-07-01T23:42:57.006241+00:00, externally triggered: True>
+[2019-07-01 16:47:58,416] {jobs.py:632} INFO - Skipping SLA check for <DAG: arxiv_pipeline> because no tasks in DAG have SLAs
+[2019-07-01 16:47:58,420] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 16:53:44.456531+00:00 [scheduled]> in ORM
+[2019-07-01 16:47:58,429] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.422 seconds
+[2019-07-01 16:48:05,945] {jobs.py:398} INFO - Started process (PID=5917) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:05,947] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:48:05,947] {logging_mixin.py:95} INFO - [2019-07-01 16:48:05,947] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:06,218] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:06,236] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:48:06,256] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01 16:54:44.456531+00:00: scheduled__2019-07-01T16:54:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:06,259] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:06,267] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:06,273] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:48:44.456531+00:00: scheduled__2019-07-01T16:48:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:06,279] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:49:44.456531+00:00: scheduled__2019-07-01T16:49:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:06,285] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:50:44.456531+00:00: scheduled__2019-07-01T16:50:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:06,291] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:51:44.456531+00:00: scheduled__2019-07-01T16:51:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:06,297] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:52:44.456531+00:00: scheduled__2019-07-01T16:52:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:06,303] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:53:44.456531+00:00: scheduled__2019-07-01T16:53:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:06,310] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:54:44.456531+00:00: scheduled__2019-07-01T16:54:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:06,316] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 23:42:57.006241+00:00: manual__2019-07-01T23:42:57.006241+00:00, externally triggered: True>
+[2019-07-01 16:48:06,369] {jobs.py:632} INFO - Skipping SLA check for <DAG: arxiv_pipeline> because no tasks in DAG have SLAs
+[2019-07-01 16:48:06,373] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 16:54:44.456531+00:00 [scheduled]> in ORM
+[2019-07-01 16:48:06,383] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.438 seconds
+[2019-07-01 16:48:13,801] {jobs.py:398} INFO - Started process (PID=5935) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:13,804] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:48:13,804] {logging_mixin.py:95} INFO - [2019-07-01 16:48:13,804] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:14,070] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:14,088] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:48:14,110] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01 16:55:44.456531+00:00: scheduled__2019-07-01T16:55:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:14,112] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:14,118] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:14,123] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:48:44.456531+00:00: scheduled__2019-07-01T16:48:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:14,129] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:49:44.456531+00:00: scheduled__2019-07-01T16:49:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:14,134] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:50:44.456531+00:00: scheduled__2019-07-01T16:50:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:14,140] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:51:44.456531+00:00: scheduled__2019-07-01T16:51:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:14,146] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:52:44.456531+00:00: scheduled__2019-07-01T16:52:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:14,151] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:53:44.456531+00:00: scheduled__2019-07-01T16:53:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:14,157] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:54:44.456531+00:00: scheduled__2019-07-01T16:54:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:14,163] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:55:44.456531+00:00: scheduled__2019-07-01T16:55:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:14,169] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 23:42:57.006241+00:00: manual__2019-07-01T23:42:57.006241+00:00, externally triggered: True>
+[2019-07-01 16:48:14,227] {jobs.py:632} INFO - Skipping SLA check for <DAG: arxiv_pipeline> because no tasks in DAG have SLAs
+[2019-07-01 16:48:14,230] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 16:55:44.456531+00:00 [scheduled]> in ORM
+[2019-07-01 16:48:14,240] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.439 seconds
+[2019-07-01 16:48:21,641] {jobs.py:398} INFO - Started process (PID=5951) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:21,645] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:48:21,646] {logging_mixin.py:95} INFO - [2019-07-01 16:48:21,646] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:21,911] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:21,930] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:48:21,950] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01 16:56:44.456531+00:00: scheduled__2019-07-01T16:56:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:21,953] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:21,961] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:21,966] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:48:44.456531+00:00: scheduled__2019-07-01T16:48:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:21,972] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:49:44.456531+00:00: scheduled__2019-07-01T16:49:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:21,978] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:50:44.456531+00:00: scheduled__2019-07-01T16:50:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:21,983] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:51:44.456531+00:00: scheduled__2019-07-01T16:51:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:21,989] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:52:44.456531+00:00: scheduled__2019-07-01T16:52:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:21,995] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:53:44.456531+00:00: scheduled__2019-07-01T16:53:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:22,003] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:54:44.456531+00:00: scheduled__2019-07-01T16:54:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:22,008] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:55:44.456531+00:00: scheduled__2019-07-01T16:55:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:22,015] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:56:44.456531+00:00: scheduled__2019-07-01T16:56:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:22,021] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 23:42:57.006241+00:00: manual__2019-07-01T23:42:57.006241+00:00, externally triggered: True>
+[2019-07-01 16:48:22,084] {jobs.py:632} INFO - Skipping SLA check for <DAG: arxiv_pipeline> because no tasks in DAG have SLAs
+[2019-07-01 16:48:22,087] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 16:56:44.456531+00:00 [scheduled]> in ORM
+[2019-07-01 16:48:22,096] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.455 seconds
+[2019-07-01 16:48:29,493] {jobs.py:398} INFO - Started process (PID=5966) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:29,495] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:48:29,496] {logging_mixin.py:95} INFO - [2019-07-01 16:48:29,496] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:29,761] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:29,780] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:48:29,800] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01 16:57:44.456531+00:00: scheduled__2019-07-01T16:57:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,803] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,808] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,814] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:48:44.456531+00:00: scheduled__2019-07-01T16:48:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,819] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:49:44.456531+00:00: scheduled__2019-07-01T16:49:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,825] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:50:44.456531+00:00: scheduled__2019-07-01T16:50:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,831] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:51:44.456531+00:00: scheduled__2019-07-01T16:51:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,837] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:52:44.456531+00:00: scheduled__2019-07-01T16:52:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,842] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:53:44.456531+00:00: scheduled__2019-07-01T16:53:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,848] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:54:44.456531+00:00: scheduled__2019-07-01T16:54:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,855] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:55:44.456531+00:00: scheduled__2019-07-01T16:55:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,860] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:56:44.456531+00:00: scheduled__2019-07-01T16:56:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,867] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:57:44.456531+00:00: scheduled__2019-07-01T16:57:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:29,872] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 23:42:57.006241+00:00: manual__2019-07-01T23:42:57.006241+00:00, externally triggered: True>
+[2019-07-01 16:48:29,937] {jobs.py:632} INFO - Skipping SLA check for <DAG: arxiv_pipeline> because no tasks in DAG have SLAs
+[2019-07-01 16:48:29,940] {jobs.py:1787} INFO - Creating / updating <TaskInstance: arxiv_pipeline.source_to_s3 2019-07-01 16:57:44.456531+00:00 [scheduled]> in ORM
+[2019-07-01 16:48:29,950] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.457 seconds
+[2019-07-01 16:48:37,341] {jobs.py:398} INFO - Started process (PID=5981) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:37,343] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:48:37,343] {logging_mixin.py:95} INFO - [2019-07-01 16:48:37,343] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:37,610] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:48:37,628] {jobs.py:1446} INFO - Processing arxiv_pipeline
+[2019-07-01 16:48:37,649] {jobs.py:1450} INFO - Created <DagRun arxiv_pipeline @ 2019-07-01 16:58:44.456531+00:00: scheduled__2019-07-01T16:58:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:37,651] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:46:44.456531+00:00: scheduled__2019-07-01T16:46:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:37,657] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:47:44.456531+00:00: scheduled__2019-07-01T16:47:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:37,662] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:48:44.456531+00:00: scheduled__2019-07-01T16:48:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:37,668] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:49:44.456531+00:00: scheduled__2019-07-01T16:49:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:37,674] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:50:44.456531+00:00: scheduled__2019-07-01T16:50:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:37,679] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:51:44.456531+00:00: scheduled__2019-07-01T16:51:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:37,685] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:52:44.456531+00:00: scheduled__2019-07-01T16:52:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:37,690] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:53:44.456531+00:00: scheduled__2019-07-01T16:53:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:37,697] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:54:44.456531+00:00: scheduled__2019-07-01T16:54:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:37,702] {jobs.py:921} INFO - Examining DAG run <DagRun arxiv_pipeline @ 2019-07-01 16:55:44.456531+00:00: scheduled__2019-07-01T16:55:44.456531+00:00, externally triggered: False>
+[2019-07-01 16:48:37,704] {jobs.py:617} INFO - Exiting gracefully upon receiving signal 2
+[2019-07-01 16:48:37,704] {jobs.py:617} INFO - Exiting gracefully upon receiving signal 15
+[2019-07-01 16:58:58,271] {jobs.py:398} INFO - Started process (PID=6181) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:58:58,273] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:58:58,273] {logging_mixin.py:95} INFO - [2019-07-01 16:58:58,273] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:58:58,538] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:58:58,552] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.281 seconds
+[2019-07-01 16:59:00,268] {jobs.py:398} INFO - Started process (PID=6185) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:00,270] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:00,270] {logging_mixin.py:95} INFO - [2019-07-01 16:59:00,270] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:00,538] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:00,552] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.284 seconds
+[2019-07-01 16:59:02,268] {jobs.py:398} INFO - Started process (PID=6187) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:02,271] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:02,272] {logging_mixin.py:95} INFO - [2019-07-01 16:59:02,272] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:02,537] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:02,551] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.283 seconds
+[2019-07-01 16:59:04,270] {jobs.py:398} INFO - Started process (PID=6189) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:04,272] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:04,272] {logging_mixin.py:95} INFO - [2019-07-01 16:59:04,272] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:04,547] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:04,561] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.291 seconds
+[2019-07-01 16:59:06,267] {jobs.py:398} INFO - Started process (PID=6195) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:06,269] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:06,270] {logging_mixin.py:95} INFO - [2019-07-01 16:59:06,270] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:06,540] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:06,555] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.288 seconds
+[2019-07-01 16:59:08,270] {jobs.py:398} INFO - Started process (PID=6200) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:08,272] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:08,273] {logging_mixin.py:95} INFO - [2019-07-01 16:59:08,273] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:08,541] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:08,557] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.287 seconds
+[2019-07-01 16:59:10,281] {jobs.py:398} INFO - Started process (PID=6202) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:10,283] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:10,283] {logging_mixin.py:95} INFO - [2019-07-01 16:59:10,283] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:10,553] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:10,568] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.287 seconds
+[2019-07-01 16:59:12,278] {jobs.py:398} INFO - Started process (PID=6204) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:12,280] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:12,280] {logging_mixin.py:95} INFO - [2019-07-01 16:59:12,280] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:12,550] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:12,565] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.287 seconds
+[2019-07-01 16:59:14,282] {jobs.py:398} INFO - Started process (PID=6206) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:14,284] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:14,284] {logging_mixin.py:95} INFO - [2019-07-01 16:59:14,284] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:14,561] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:14,575] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.294 seconds
+[2019-07-01 16:59:16,285] {jobs.py:398} INFO - Started process (PID=6208) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:16,287] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:16,287] {logging_mixin.py:95} INFO - [2019-07-01 16:59:16,287] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:16,552] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:16,565] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.280 seconds
+[2019-07-01 16:59:18,285] {jobs.py:398} INFO - Started process (PID=6210) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:18,287] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:18,287] {logging_mixin.py:95} INFO - [2019-07-01 16:59:18,287] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:18,567] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:18,581] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.296 seconds
+[2019-07-01 16:59:20,284] {jobs.py:398} INFO - Started process (PID=6213) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:20,287] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:20,287] {logging_mixin.py:95} INFO - [2019-07-01 16:59:20,287] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:20,653] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:20,672] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.388 seconds
+[2019-07-01 16:59:22,292] {jobs.py:398} INFO - Started process (PID=6216) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:22,294] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:22,295] {logging_mixin.py:95} INFO - [2019-07-01 16:59:22,294] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:22,591] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:22,607] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.315 seconds
+[2019-07-01 16:59:24,290] {jobs.py:398} INFO - Started process (PID=6218) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:24,293] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:24,294] {logging_mixin.py:95} INFO - [2019-07-01 16:59:24,294] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:24,564] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:24,578] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.288 seconds
+[2019-07-01 16:59:26,289] {jobs.py:398} INFO - Started process (PID=6220) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:26,292] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:26,292] {logging_mixin.py:95} INFO - [2019-07-01 16:59:26,292] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:26,588] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:26,602] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.313 seconds
+[2019-07-01 16:59:28,290] {jobs.py:398} INFO - Started process (PID=6222) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:28,292] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:28,293] {logging_mixin.py:95} INFO - [2019-07-01 16:59:28,293] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:28,588] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:28,602] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.312 seconds
+[2019-07-01 16:59:30,289] {jobs.py:398} INFO - Started process (PID=6224) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:30,290] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:30,291] {logging_mixin.py:95} INFO - [2019-07-01 16:59:30,291] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:30,575] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:30,595] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.306 seconds
+[2019-07-01 16:59:32,296] {jobs.py:398} INFO - Started process (PID=6226) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:32,298] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:32,298] {logging_mixin.py:95} INFO - [2019-07-01 16:59:32,298] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:32,594] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:32,609] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.313 seconds
+[2019-07-01 16:59:34,297] {jobs.py:398} INFO - Started process (PID=6228) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:34,301] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:34,301] {logging_mixin.py:95} INFO - [2019-07-01 16:59:34,301] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:34,589] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:34,604] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.307 seconds
+[2019-07-01 16:59:36,306] {jobs.py:398} INFO - Started process (PID=6230) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:36,308] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:36,309] {logging_mixin.py:95} INFO - [2019-07-01 16:59:36,309] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:36,586] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:36,602] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.296 seconds
+[2019-07-01 16:59:38,298] {jobs.py:398} INFO - Started process (PID=6240) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:38,301] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:38,302] {logging_mixin.py:95} INFO - [2019-07-01 16:59:38,302] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:38,715] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:38,732] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.434 seconds
+[2019-07-01 16:59:40,302] {jobs.py:398} INFO - Started process (PID=6244) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:40,304] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:40,304] {logging_mixin.py:95} INFO - [2019-07-01 16:59:40,304] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:40,581] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:40,596] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.294 seconds
+[2019-07-01 16:59:42,316] {jobs.py:398} INFO - Started process (PID=6246) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:42,318] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:42,318] {logging_mixin.py:95} INFO - [2019-07-01 16:59:42,318] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:42,647] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:42,664] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.348 seconds
+[2019-07-01 16:59:44,302] {jobs.py:398} INFO - Started process (PID=6248) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:44,305] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:44,305] {logging_mixin.py:95} INFO - [2019-07-01 16:59:44,305] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:44,572] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:44,587] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.285 seconds
+[2019-07-01 16:59:46,306] {jobs.py:398} INFO - Started process (PID=6250) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:46,309] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:46,309] {logging_mixin.py:95} INFO - [2019-07-01 16:59:46,309] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:46,588] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:46,604] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.298 seconds
+[2019-07-01 16:59:48,313] {jobs.py:398} INFO - Started process (PID=6252) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:48,315] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:48,315] {logging_mixin.py:95} INFO - [2019-07-01 16:59:48,315] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:48,582] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:48,596] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.284 seconds
+[2019-07-01 16:59:50,308] {jobs.py:398} INFO - Started process (PID=6254) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:50,311] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:50,311] {logging_mixin.py:95} INFO - [2019-07-01 16:59:50,311] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:50,738] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:50,759] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.450 seconds
+[2019-07-01 16:59:52,311] {jobs.py:398} INFO - Started process (PID=6259) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:52,314] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:52,315] {logging_mixin.py:95} INFO - [2019-07-01 16:59:52,314] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:52,757] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:52,779] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.468 seconds
+[2019-07-01 16:59:54,321] {jobs.py:398} INFO - Started process (PID=6261) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:54,323] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:54,323] {logging_mixin.py:95} INFO - [2019-07-01 16:59:54,323] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:54,698] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:54,720] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.400 seconds
+[2019-07-01 16:59:56,314] {jobs.py:398} INFO - Started process (PID=6263) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:56,316] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:56,317] {logging_mixin.py:95} INFO - [2019-07-01 16:59:56,316] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:56,622] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:56,638] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.324 seconds
+[2019-07-01 16:59:58,316] {jobs.py:398} INFO - Started process (PID=6266) to work on /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:58,319] {jobs.py:1711} INFO - Processing file /home/kent/airflow/dags/load.py for tasks to queue
+[2019-07-01 16:59:58,319] {logging_mixin.py:95} INFO - [2019-07-01 16:59:58,319] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:58,586] {jobs.py:1723} INFO - DAG(s) dict_keys(['arxiv_pipeline']) retrieved from /home/kent/airflow/dags/load.py
+[2019-07-01 16:59:58,599] {jobs.py:406} INFO - Processing /home/kent/airflow/dags/load.py took 0.283 seconds

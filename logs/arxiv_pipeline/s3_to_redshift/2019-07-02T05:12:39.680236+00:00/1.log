@@ -1,0 +1,82 @@
+[2019-07-01 22:18:13,268] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: arxiv_pipeline.s3_to_redshift 2019-07-02T05:12:39.680236+00:00 [queued]>
+[2019-07-01 22:18:13,276] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: arxiv_pipeline.s3_to_redshift 2019-07-02T05:12:39.680236+00:00 [queued]>
+[2019-07-01 22:18:13,276] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-01 22:18:13,276] {__init__.py:1354} INFO - Starting attempt 1 of 2
+[2019-07-01 22:18:13,276] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-01 22:18:13,284] {__init__.py:1374} INFO - Executing <Task(PythonOperator): s3_to_redshift> on 2019-07-02T05:12:39.680236+00:00
+[2019-07-01 22:18:13,284] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'arxiv_pipeline', 's3_to_redshift', '2019-07-02T05:12:39.680236+00:00', '--job_id', '5', '--raw', '-sd', 'DAGS_FOLDER/load.py', '--cfg_path', '/tmp/tmpcl5ztwez']
+[2019-07-01 22:18:13,871] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift [2019-07-01 22:18:13,870] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-07-01 22:18:14,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift [2019-07-01 22:18:14,103] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 22:18:14,361] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift [2019-07-01 22:18:14,361] {cli.py:517} INFO - Running <TaskInstance: arxiv_pipeline.s3_to_redshift 2019-07-02T05:12:39.680236+00:00 [running]> on host Aspire-E5-572G
+[2019-07-01 22:18:14,370] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=arxiv_pipeline
+AIRFLOW_CTX_TASK_ID=s3_to_redshift
+AIRFLOW_CTX_EXECUTION_DATE=2019-07-02T05:12:39.680236+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-07-02T05:12:39.680236+00:00
+[2019-07-01 22:18:15,067] {__init__.py:1580} ERROR - Invalid credentials. Must be of the format: credentials 'aws_iam_role=...' or 'aws_access_key_id=...;aws_secret_access_key=...[;token=...]'
+DETAIL:  
+  -----------------------------------------------
+  error:  Invalid credentials. Must be of the format: credentials 'aws_iam_role=...' or 'aws_access_key_id=...;aws_secret_access_key=...[;token=...]'
+  code:      8001
+  context:   
+  query:     23146
+  location:  aws_credentials_parser.cpp:115
+  process:   padbmaster [pid=4699]
+  -----------------------------------------------
+
+Traceback (most recent call last):
+  File "/home/kent/.local/lib/python3.6/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/kent/.local/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 112, in execute
+    return_value = self.execute_callable()
+  File "/home/kent/.local/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 117, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/kent/airflow/dags/load.py", line 60, in s3_to_redshift
+    cursor.execute(create_staging_table)
+psycopg2.errors.InternalError_: Invalid credentials. Must be of the format: credentials 'aws_iam_role=...' or 'aws_access_key_id=...;aws_secret_access_key=...[;token=...]'
+DETAIL:  
+  -----------------------------------------------
+  error:  Invalid credentials. Must be of the format: credentials 'aws_iam_role=...' or 'aws_access_key_id=...;aws_secret_access_key=...[;token=...]'
+  code:      8001
+  context:   
+  query:     23146
+  location:  aws_credentials_parser.cpp:115
+  process:   padbmaster [pid=4699]
+  -----------------------------------------------
+
+
+[2019-07-01 22:18:15,071] {__init__.py:1603} INFO - Marking task as UP_FOR_RETRY
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift Traceback (most recent call last):
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   File "/home/kent/.local/bin/airflow", line 32, in <module>
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift     args.func(args)
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   File "/home/kent/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift     return f(*args, **kwargs)
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   File "/home/kent/.local/lib/python3.6/site-packages/airflow/bin/cli.py", line 523, in run
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift     _run(args, dag, ti)
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   File "/home/kent/.local/lib/python3.6/site-packages/airflow/bin/cli.py", line 442, in _run
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift     pool=args.pool,
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   File "/home/kent/.local/lib/python3.6/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift     return func(*args, **kwargs)
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   File "/home/kent/.local/lib/python3.6/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift     result = task_copy.execute(context=context)
+[2019-07-01 22:18:15,103] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   File "/home/kent/.local/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 112, in execute
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift     return_value = self.execute_callable()
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   File "/home/kent/.local/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 117, in execute_callable
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift     return self.python_callable(*self.op_args, **self.op_kwargs)
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   File "/home/kent/airflow/dags/load.py", line 60, in s3_to_redshift
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift     cursor.execute(create_staging_table)
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift psycopg2.errors.InternalError_: Invalid credentials. Must be of the format: credentials 'aws_iam_role=...' or 'aws_access_key_id=...;aws_secret_access_key=...[;token=...]'
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift DETAIL:  
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   -----------------------------------------------
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   error:  Invalid credentials. Must be of the format: credentials 'aws_iam_role=...' or 'aws_access_key_id=...;aws_secret_access_key=...[;token=...]'
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   code:      8001
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   context:   
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   query:     23146
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   location:  aws_credentials_parser.cpp:115
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   process:   padbmaster [pid=4699]
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift   -----------------------------------------------
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift 
+[2019-07-01 22:18:15,104] {base_task_runner.py:101} INFO - Job 5: Subtask s3_to_redshift 
+[2019-07-01 22:18:18,270] {logging_mixin.py:95} INFO - [2019-07-01 22:18:18,269] {jobs.py:2562} INFO - Task exited with return code 1

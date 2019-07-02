@@ -1,0 +1,66 @@
+[2019-07-01 17:52:41,554] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: arxiv_pipeline.source_to_s3 2019-06-29T18:28:57.713904+00:00 [queued]>
+[2019-07-01 17:52:41,559] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: arxiv_pipeline.source_to_s3 2019-06-29T18:28:57.713904+00:00 [queued]>
+[2019-07-01 17:52:41,559] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-01 17:52:41,559] {__init__.py:1354} INFO - Starting attempt 2 of 2
+[2019-07-01 17:52:41,559] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-07-01 17:52:41,568] {__init__.py:1374} INFO - Executing <Task(PythonOperator): source_to_s3> on 2019-06-29T18:28:57.713904+00:00
+[2019-07-01 17:52:41,568] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'arxiv_pipeline', 'source_to_s3', '2019-06-29T18:28:57.713904+00:00', '--job_id', '100', '--raw', '-sd', 'DAGS_FOLDER/load.py', '--cfg_path', '/tmp/tmpp88lgoop']
+[2019-07-01 17:52:42,169] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3 [2019-07-01 17:52:42,168] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-07-01 17:52:42,393] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3 [2019-07-01 17:52:42,393] {__init__.py:305} INFO - Filling up the DagBag from /home/kent/airflow/dags/load.py
+[2019-07-01 17:52:42,652] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3 [2019-07-01 17:52:42,652] {cli.py:517} INFO - Running <TaskInstance: arxiv_pipeline.source_to_s3 2019-06-29T18:28:57.713904+00:00 [running]> on host Aspire-E5-572G
+[2019-07-01 17:52:42,661] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=arxiv_pipeline
+AIRFLOW_CTX_TASK_ID=source_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2019-06-29T18:28:57.713904+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-29T18:28:57.713904+00:00
+[2019-07-01 17:52:44,077] {__init__.py:1580} ERROR - "None of [Index(['title', 'link', 'summary'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "/home/kent/.local/lib/python3.6/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/kent/.local/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 112, in execute
+    return_value = self.execute_callable()
+  File "/home/kent/.local/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 117, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/kent/airflow/dags/load.py", line 36, in source_to_s3
+    new_feed = df[columns]
+  File "/home/kent/.local/lib/python3.6/site-packages/pandas/core/frame.py", line 2934, in __getitem__
+    raise_missing=True)
+  File "/home/kent/.local/lib/python3.6/site-packages/pandas/core/indexing.py", line 1354, in _convert_to_indexer
+    return self._get_listlike_indexer(obj, axis, **kwargs)[1]
+  File "/home/kent/.local/lib/python3.6/site-packages/pandas/core/indexing.py", line 1161, in _get_listlike_indexer
+    raise_missing=raise_missing)
+  File "/home/kent/.local/lib/python3.6/site-packages/pandas/core/indexing.py", line 1246, in _validate_read_indexer
+    key=key, axis=self.obj._get_axis_name(axis)))
+KeyError: "None of [Index(['title', 'link', 'summary'], dtype='object')] are in the [columns]"
+[2019-07-01 17:52:44,082] {__init__.py:1609} INFO - All retries failed; marking task as FAILED
+[2019-07-01 17:52:44,110] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3 Traceback (most recent call last):
+[2019-07-01 17:52:44,110] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/.local/bin/airflow", line 32, in <module>
+[2019-07-01 17:52:44,110] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     args.func(args)
+[2019-07-01 17:52:44,110] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-07-01 17:52:44,110] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     return f(*args, **kwargs)
+[2019-07-01 17:52:44,110] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/.local/lib/python3.6/site-packages/airflow/bin/cli.py", line 523, in run
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     _run(args, dag, ti)
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/.local/lib/python3.6/site-packages/airflow/bin/cli.py", line 442, in _run
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     pool=args.pool,
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/.local/lib/python3.6/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     return func(*args, **kwargs)
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/.local/lib/python3.6/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     result = task_copy.execute(context=context)
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/.local/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 112, in execute
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     return_value = self.execute_callable()
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/.local/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 117, in execute_callable
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     return self.python_callable(*self.op_args, **self.op_kwargs)
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/airflow/dags/load.py", line 36, in source_to_s3
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     new_feed = df[columns]
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/.local/lib/python3.6/site-packages/pandas/core/frame.py", line 2934, in __getitem__
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     raise_missing=True)
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/.local/lib/python3.6/site-packages/pandas/core/indexing.py", line 1354, in _convert_to_indexer
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     return self._get_listlike_indexer(obj, axis, **kwargs)[1]
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/.local/lib/python3.6/site-packages/pandas/core/indexing.py", line 1161, in _get_listlike_indexer
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     raise_missing=raise_missing)
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3   File "/home/kent/.local/lib/python3.6/site-packages/pandas/core/indexing.py", line 1246, in _validate_read_indexer
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3     key=key, axis=self.obj._get_axis_name(axis)))
+[2019-07-01 17:52:44,111] {base_task_runner.py:101} INFO - Job 100: Subtask source_to_s3 KeyError: "None of [Index(['title', 'link', 'summary'], dtype='object')] are in the [columns]"
+[2019-07-01 17:52:46,563] {logging_mixin.py:95} INFO - [2019-07-01 17:52:46,562] {jobs.py:2562} INFO - Task exited with return code 1
