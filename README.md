@@ -32,7 +32,7 @@ This is a simple project created to demonstrate the workflow of a data pipeline.
     airflow webserver
     ```
 
-6. visit `localhost:8080` in the browser and set the `arxiv-pipeline` DAG to `On` in the webserver UI
+6. visit [localhost:8080](localhost:8080) in the browser and set the `arxiv-pipeline` DAG to `On` in the webserver UI
 
 7. open another terminal and start the schedular
 
@@ -42,5 +42,5 @@ This is a simple project created to demonstrate the workflow of a data pipeline.
 
 ## Note
 
-- this program is only tested on Unbuntu 18.04
-- my AWS credentials are not in the source code
+- this program is only tested on Ubuntu 18.04
+- AWS credentials are of the format `***` in source code
