@@ -32,7 +32,7 @@ This is a simple project created to demonstrate the workflow of a data pipeline.
     airflow webserver
     ```
 
-6. visit [localhost:8080](localhost:8080) in the browser and set the `arxiv-pipeline` DAG to `On` in the webserver UI
+6. visit <localhost:8080> in the browser and set the `arxiv-pipeline` DAG to `On` in the webserver UI
 
 7. open another terminal and start the schedular
 
